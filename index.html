@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aqua Asia · Asian fusion dining à Nador</title>
+<meta name="description" content="Aqua Asia, restaurant asiatique fusion sur le boulevard Grand Rif à Nador : rolls, rolls signature, wok, desserts et mocktails. Tous les soirs de 18 h à 1 h 30. +212 637 43 61 40.">
+<meta name="theme-color" content="#0c0b0d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230c0b0d'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%234fd1c5' stroke-width='5'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700&family=Zen+Old+Mincho:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/light/style.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="noren" id="noren" aria-hidden="true">
+  <div class="noren__rod"></div>
+  <div class="noren__panels">
+    <span class="noren__p"><b>A</b></span><span class="noren__p"><b>Q</b></span><span class="noren__p"><b>U</b></span><span class="noren__p"><b>A</b></span>
+  </div>
+</div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top">Aqua <i>Asia</i></a>
+  <nav class="nav__links" aria-label="Principal">
+    <a href="#kaiten" data-i18n="nav.belt">La cinta</a>
+    <a href="#signature" data-i18n="nav.sig">Signature</a>
+    <a href="#bar" data-i18n="nav.bar">Bar</a>
+    <a href="#venir" data-i18n="nav.visit">Venir</a>
+  </nav>
+  <div class="nav__end">
+    <div class="lang" role="group" aria-label="Langue">
+      <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+      <button type="button" data-lang="es" aria-pressed="false">ES</button>
+    </div>
+    <a class="btn btn--aqua btn--sm" href="https://wa.me/212637436140" target="_blank" rel="noopener" data-i18n="cta.book">Réserver</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <video class="hero__video" src="assets/video/sala.mp4" poster="assets/img/lampara.jpg" muted loop playsinline autoplay preload="metadata" aria-label="Façade, lustre de feuilles dorées et salle d’Aqua Asia"></video>
+    <div class="hero__copy">
+      <h1 class="hero__title"><span>Aqua</span><span>Asia</span></h1>
+      <p class="hero__sub" data-i18n="hero.sub">Asian fusion dining. Rolls, rolls signature et mocktails, servis le soir sous un lustre de feuilles d’or.</p>
+      <div class="hero__cta">
+        <a class="btn btn--aqua" href="#kaiten" data-i18n="cta.belt">Regarder la cinta</a>
+        <a class="btn btn--line" href="tel:+212637436140"><i class="ph-light ph-phone"></i>+212 637 43 61 40</a>
+      </div>
+      <p class="hero__hours" data-i18n="hero.hours">Tous les soirs · 18 h à 1 h 30</p>
+    </div>
+  </section>
+
+  <section class="kaiten" id="kaiten">
+    <div class="kaiten__head">
+      <h2 class="h2" data-i18n="k.title">Kaiten : la carte tourne.</h2>
+      <p class="lead" data-i18n="k.lead">Ici, comme dans les bars à sushis de Tokyo, la couleur de l’assiette indique le prix. Survolez la cinta pour l’arrêter, touchez une assiette pour la prendre.</p>
+    </div>
+    <ul class="legend" aria-label="Couleur et prix">
+      <li><span class="dot dot--160"></span>160 DH</li>
+      <li><span class="dot dot--200"></span>200 DH</li>
+      <li><span class="dot dot--230"></span>230 DH</li>
+      <li><span class="dot dot--85"></span>85 DH</li>
+      <li><span class="dot dot--90"></span>90 DH</li>
+    </ul>
+    <div class="belt" id="belt">
+      <div class="belt__track" aria-hidden="true"></div>
+      <div class="belt__center" id="pick" aria-live="polite">
+        <p class="pick__hint" data-i18n="k.hint">Touchez une assiette</p>
+      </div>
+    </div>
+    <p class="kaiten__note" data-i18n="k.note">Prix relevés sur la carte digitale du restaurant. Wok, plats chauds et desserts : demandez la carte complète en salle.</p>
+  </section>
+
+  <section class="sig" id="signature">
+    <figure class="sig__a"><img src="assets/img/sushi-tabla.jpg" alt="Rolls dressés sur une planche en bois sombre" loading="lazy" width="1200" height="1600"></figure>
+    <div class="sig__txt">
+      <h2 class="h2" data-i18n="sig.title">Rollos signature</h2>
+      <ul class="sig__list">
+        <li><span>Shrimp Salmon Roll</span><b>200 DH</b><small data-i18n="sig.1">Tempura de crevette et concombre, couvert de saumon</small></li>
+        <li><span>Rollo de atún</span><b>200 DH</b><small data-i18n="sig.2">Concombre, avocat et thon, mayo épicée</small></li>
+        <li><span>Rollo arcoíris</span><b>230 DH</b><small data-i18n="sig.3">Peau de saumon frite et fromage, saumon et thon dessus</small></li>
+      </ul>
+      <blockquote><p data-i18n="sig.q">« Une cuisine délicate et raffinée, pleine de saveur. Mention spéciale pour le chef, une vraie perle. »</p><cite>Salima Boulahzout, Google</cite></blockquote>
+    </div>
+    <figure class="sig__b"><img src="assets/img/rolls-hoja.jpg" alt="Rolls sur une feuille de bananier" loading="lazy" width="1600" height="1200"></figure>
+    <figure class="sig__c"><img src="assets/img/arroz-pina.jpg" alt="Riz sauté servi dans un ananas" loading="lazy" width="1079" height="1541"></figure>
+  </section>
+
+  <section class="bar" id="bar">
+    <div class="bar__txt">
+      <h2 class="h2" data-i18n="bar.title">Le bar, sans alcool.</h2>
+      <p class="lead" data-i18n="bar.lead">Mocktails et mojitos, à boire en attendant sa table ou en terrasse.</p>
+      <ul class="bar__list">
+        <li><span>On The Beach</span><b>85</b></li><li><span>Star Martini</span><b>90</b></li><li><span>Espresso Martini</span><b>90</b></li>
+        <li><span>Piña Colada</span><b>85</b></li><li><span>Bora Bora</span><b>85</b></li><li><span>Paloma</span><b>85</b></li><li><span>Lychee Lycious</span><b>90</b></li>
+      </ul>
+      <p class="bar__unit" data-i18n="bar.unit">Prix en dirhams. Mojitos en plusieurs parfums.</p>
+    </div>
+    <figure class="bar__a"><img src="assets/img/mocktail-limon.jpg" alt="Mocktail au citron levé devant le lustre" loading="lazy" width="1200" height="1600"></figure>
+    <figure class="bar__b"><img src="assets/img/mocktails.jpg" alt="Deux mocktails sur une table" loading="lazy" width="1600" height="1200"></figure>
+  </section>
+
+  <section class="reviews" aria-labelledby="revT">
+    <h2 class="h2" id="revT" data-i18n="rev.title">Le premier mois, déjà des habitués</h2>
+    <div class="reviews__row" id="reviews"></div>
+  </section>
+
+  <section class="visit" id="venir">
+    <div class="visit__txt">
+      <h2 class="h2" data-i18n="v.title">Boulevard Grand Rif, Nador</h2>
+      <dl>
+        <div><dt data-i18n="v.h">Horaires</dt><dd data-i18n="v.h.v">Tous les soirs, de 18 h à 1 h 30</dd></div>
+        <div><dt data-i18n="v.r">Réservations</dt><dd><a href="tel:+212637436140">+212 637 43 61 40</a></dd></div>
+        <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/aqua.asia.nador/" target="_blank" rel="noopener">@aqua.asia.nador</a></dd></div>
+      </dl>
+      <div class="visit__cta">
+        <a class="btn btn--aqua" href="https://wa.me/212637436140" target="_blank" rel="noopener"><i class="ph-light ph-whatsapp-logo"></i><span data-i18n="cta.wa">Réserver sur WhatsApp</span></a>
+        <a class="btn btn--line" href="https://www.google.com/maps/search/?api=1&query=AQUA+ASIA+Nador" target="_blank" rel="noopener" data-i18n="cta.route">Itinéraire</a>
+      </div>
+    </div>
+    <figure class="visit__fig"><img src="assets/img/postre-logo.jpg" alt="Dessert servi sur une table au logo Aqua Asia" loading="lazy" width="1200" height="1600"></figure>
+  </section>
+
+</main>
+
+<footer class="foot"><p>Aqua Asia · Asian fusion dining · Nador</p></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
